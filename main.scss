@@ -1,0 +1,40 @@
+$font-stack:   sans-serif;
+$color-green: #EAF2D3;
+$color-cy-green: #006666;
+$primary-color: #333;
+$btn-color: #006666;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.contanier{
+	.title{
+		font-size:30px
+	}
+}
+
+
+@mixin border-radius($radius){
+	border-radius: $radius;
+}
+
+.btn{
+	height: 38px;
+	width: 100px;
+    font-style: bold;
+    @include border-radius(30px);
+    background: $color-green;
+    transition: 0.9s;
+    &:hover{
+	    height: 38px;
+		width: 100px;
+		cursor: pointer;
+	    font-style: bold;
+	    background: $color-cy-green;
+	    transition: 0.9s;
+	    }
+	&:active {
+	}
+}

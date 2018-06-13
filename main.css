@@ -1,0 +1,22 @@
+body {
+  font: 100% sans-serif;
+  color: #333; }
+
+.contanier .title {
+  font-size: 30px; }
+
+.btn {
+  height: 38px;
+  width: 100px;
+  font-style: bold;
+  background: #EAF2D3;
+  transition: 0.9s; }
+  .btn:hover {
+    height: 38px;
+    width: 100px;
+    cursor: pointer;
+    font-style: bold;
+    background: #006666;
+    transition: 0.9s; }
+
+/*# sourceMappingURL=main.css.map */
